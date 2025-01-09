@@ -38,6 +38,7 @@ A logistic regression model was chosen for its simplicity and interpretability:
 - Regularization and hyperparameter tuning were explored using tools such as GridSearchCV to prevent overfitting and optimize model performance.
 
 Results and Analysis
+
 Accuracy Metrics
 - Training Set Accuracy: Achieved approximately 85%.
 - Validation Set Accuracy: Consistently around 85%.
@@ -48,6 +49,7 @@ Insights
 - Cross-validation and regularization were crucial in avoiding overfitting, ensuring the model generalizes well to unseen data.
 
 Recommendations for Further Improvement
+
 - Experiment with additional features like email length, punctuation counts, or HTML-specific tags.
 - Explore advanced preprocessing techniques, such as stemming or lemmatization, to improve keyword matching.
 - Consider other metrics like precision, recall, or F1-score for a more comprehensive evaluation.
