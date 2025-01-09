@@ -3,6 +3,7 @@ This project focuses on building a spam filter to classify emails as spam or not
 Tools and Libraries: Python, Scikit-learn, Pandas, NumPy
 
 Overview
+
 The spam filter is built using Python, with specific emphasis on:
 - Preprocessing email data.
 - Creating meaningful features for classification.
@@ -10,6 +11,7 @@ The spam filter is built using Python, with specific emphasis on:
 - Evaluating performance through accuracy metrics on training, validation, and test sets.
 
 Data Preprocessing Process
+
 The dataset contained email text and corresponding labels (spam or not spam). 
 Preprocessing steps included:
 - Text Conversion: All email text was converted to lowercase for consistency.
@@ -17,6 +19,7 @@ Preprocessing steps included:
 - Data Splitting: The dataset was split into training (90%) and validation (10%) sets to train and validate the model effectively.
 
 Feature Engineering
+
 To improve the model's predictive accuracy, several features were extracted:
 
 Keyword-Based Features:
